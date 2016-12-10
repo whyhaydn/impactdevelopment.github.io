@@ -1,7 +1,6 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
 	$('.scrollspy').scrollSpy();
 
     /*** Animate word ***/
@@ -159,6 +158,7 @@
 
 	$('.button-collapse').sideNav({
 		menuWidth: 240, // Default is 240
+    draggable: true, // Choose whether you can drag to open on touch screens
 		closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
 	});
 
