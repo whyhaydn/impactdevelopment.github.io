@@ -46,6 +46,7 @@
                         <li><a class="waves-effect" href="#about">About</a></li>
                         <li><a class="waves-effect" href="#download">Download</a></li>
                         <li><a class="waves-effect" href="#team">Team</a></li>
+                        <li><a class="waves-effect" href="#donate">Donate</a></li>
                         <li><a class="waves-effect" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -56,6 +57,7 @@
         <li><a class="waves-effect" href="#about">About</a></li>
         <li><a class="waves-effect" href="#download">Download</a></li>
         <li><a class="waves-effect" href="#team">Team</a></li>
+        <li><a class="waves-effect" href="#donate">Donate</a></li>
         <li><a class="waves-effect" href="#contact">Contact</a></li>
     </ul>
 </header>
@@ -195,6 +197,60 @@
                             <small><em class="red-text text-darken-1">Developer</em></small>
                         </span>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Donate-->
+<div class="section scrollspy" id="donate">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h4 class="center header text_h2">
+                    You can <span class="span_h2">donate</span> to help support Brady with Impact Development.
+                </h4>
+                <div class="container">
+                    <p>
+                        If you donate <span class="text_b">$5 or more</span> (and enter your Minecraft username),
+                        you will recieve a few small rewards such as <span class="text_b">premium mods</span>
+                        (currently Firon), a <span class="text_b">cape</span> visible to other Impact users and a
+                        gold colored name in the <a href="#contact">Impact discord</a>
+                    </p>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_xclick" />
+                        <input type="hidden" name="business" value="ximpactdevteam@gmail.com" />
+                        <input type="hidden" name="item_name" value="ImpactDonation" />
+                        <input type="hidden" name="item_number" value="1" />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="hidden" name="no_note" value="1" />
+                        <input type="hidden" name="no_shipping" value="1" /><!-- 0: optional, 1: none, 2: required -->
+                        <input type="hidden" name="rm" value="1" /><!-- do not include variables in return -->
+                        <input type="hidden" name="return" value="https://impactdevelopment.github.io" />
+                        <input type="hidden" name="cancel_return" value="https://impactdevelopment.github.io/#donate" />
+                        <input type="hidden" name="image_url" value="https://impactdevelopment.github.io/img/header.png" />
+                        <input type="hidden" name="bn" value="Impact_BuyNow_WPS_US" />
+
+                        <div class="row">
+                            <div class="col s12 m4 push-m8 input-field">
+                                <div class="prefix text_h2"><span style="padding-left: 0.5em;">$</span></div>
+                                <input type="number" id="amount" name="amount" maxlength="50" value="5" min="0" required="required" />
+                                <label for="amount">Amount</label>
+                            </div>
+                            <div class="col s12 m8 pull-m4 input-field">
+                                <input type="text" id="username" name="os0" maxlength="40"  /><!-- option 0 value -->
+                                <label for="username" data-error="Minimum $5 for premium account">Minecraft Username or UUID</label>
+                                <br />
+                                <input type="hidden" name="on0" value="Username" /><!-- option 0 name -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 center">
+                                <input type="image" src="/img/paypal.png" name="submit" alt="PayPal . The safer, easier way to pay online." />
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

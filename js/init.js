@@ -70,6 +70,33 @@
 		});
 	}
 
+	function validateUsername() {
+		if (amount.value < 5) {
+			username.classList.add("validate");
+			username.removeAttribute('name');
+			username.pattern = "^$";
+			username.disabled = true;
+		}
+		else {
+			username.classList.remove("validate", "valid", "invalid");
+			username.removeAttribute('pattern');
+			username.name = "os0"; // os0: option 0 value
+			username.disabled = false;
+		}
+
+		{ // Hacky way to force materialize to update validity
+		  // materialize listen to the blur event on input elements,
+		  // so we just despatch a blur event (even though no blur happened!)
+			if ("createEvent" in document) {
+				var onblur = document.createEvent("HTMLEvents");
+				onblur.initEvent("blur", false, true);
+				username.dispatchEvent(onblur);
+			}
+			else
+				username.fireEvent("onblur");
+		}
+	}
+
 	function hideWord($word) {
 		var nextWord = takeNext($word);
 		
@@ -267,6 +294,11 @@
 	// [].forEach.call(card, function(card) {
 	// 	card.addEventListener('click', scaleCard, false);
 	// });
+
+	username.addEventListener('input', validateUsername);
+	username.addEventListener('change', validateUsername);
+	amount.addEventListener('input', validateUsername);
+	amount.addEventListener('change', validateUsername);
 
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
