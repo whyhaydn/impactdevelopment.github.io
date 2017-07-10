@@ -28,7 +28,11 @@ h3 {
     font-weight: 240;
 }
 
-i, b, em, strong {
+i {
+    font-style: normal;
+}
+
+b, em, strong {
     font-style: normal;
     font-weight: normal;
     color: #2196F3;
