@@ -5,9 +5,53 @@
  * Thanks for MaterializeCSS.com
  */
 
-.default_color{background-color: #2196F3 !important}
+.default_color{
+    background-color: #2196F3 !important;
+}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text{
+    color: #2196F3 !important;
+}
+
+.large_text {
+    font-size: 2.4rem;
+    font-weight: 100; .large_text i,
+}
+
+h2, h3 {
+    font-weight: 300;
+    margin-bottom: 4%;
+    line-height: 4.5rem;
+}
+
+h3 {
+    font-weight: 240;
+}
+
+i, b, em, strong {
+    font-style: normal;
+    font-weight: normal;
+    color: #2196F3;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h2 i, h3 i, h4 i, .large_text i,
+h2 b, h3 b, h4 b, .large_text b,
+h2 em, h3 em, h4 em .large_text em {
+    font-weight: 100;
+}
+
+h2 strong, h3 strong, h4 strong, .large_text strong {
+    font-weight: 200;
+}
+
+nav, footer, .page-footer {
+    background-color: #2196F3;
+    margin-top: 0;
+}
 
 .icon-block {
     padding: 0 15px;
@@ -23,19 +67,7 @@
     background-color: #2196F3;
 }
 
-#nav_f{
-    box-shadow: none !important; 
-    -webkit-box-shadow:none !important;
-}
-
-.text_h {
-    padding: 15% 0;
-    font-size: 6.0em;
-    font-weight: 100;
-    color:white;
-}
-
-.brand-logo{
+.brand-logo {
     position: absolute;
     color: #fff;
     display: inline-block;
@@ -46,13 +78,18 @@
     letter-spacing: 7px;
 }
 
-.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+.brand-logo h1 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 2.1rem;
+    font-weight: 100;
+}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
-
-.text_b{color: #2196F3;}
-
-.in{font-weight: 400 !important; font-style: normal !important;}
+.in{
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
 
 .promo i {
     color: #2196F3;
@@ -212,15 +249,6 @@ nav ul a {
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
-@media only screen and (max-width: 480px) {
-    .text_h {
-        padding: 4% 0;
-        font-size: 5em;
-        font-weight: 100;
-        color: white;
-    }
-}
-
 input, textarea {
     border-bottom: 1px solid #fff;
 }
@@ -258,8 +286,4 @@ nav a.button-collapse {
 
 .parallax-container {
     max-height: 400px;
-}
-
-footer.page-footer {
-    margin-top: 0px !important;
 }

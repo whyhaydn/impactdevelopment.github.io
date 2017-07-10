@@ -1,11 +1,10 @@
-(function($){
-  $(function(){
+(function($){ $(function(){
 
 	$('.scrollspy').scrollSpy();
 
-    /*** Animate word ***/
+	/*** Animate word ***/
 
-    //set animation timing
+	//set animation timing
 	var animationDelay = 2500,
 		//loading bar effect
 		barAnimationDelay = 3800,
@@ -19,6 +18,9 @@
 		//clip effect 
 		revealDuration = 600,
 		revealAnimationDelay = 1500;
+	
+	var username = document.getElementById('username'),
+		amount = document.getElementById('amount');
 	
 	initHeadline();
 	
@@ -295,10 +297,14 @@
 	// 	card.addEventListener('click', scaleCard, false);
 	// });
 
+	document.getElementById('donate_link').addEventListener('click', function (event) {
+		amount.focus();
+	});
+
 	username.addEventListener('input', validateUsername);
 	username.addEventListener('change', validateUsername);
 	amount.addEventListener('input', validateUsername);
 	amount.addEventListener('change', validateUsername);
 
-	}); // end of document ready
+}); // end of document ready
 })(jQuery); // end of jQuery name space
