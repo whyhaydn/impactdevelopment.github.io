@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
   - **Shift**: Shift-clicks items into your inventory
   - **Pickup**: Performs 2 clicks, one to take the item out of the chest, another to put it in your inventory
 - Added Placement option for Crystal Aura
+- Added GUI that displays if Baritone was not successfully loaded to prevent unexpected behavior
 
 ### Changed
 - Changed Ladder Speed in Terrain to have a speed multiplier instead of an obscure speed value
