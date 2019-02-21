@@ -29,6 +29,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 
 ### Changed
 - Changed Ladder Speed in Terrain to have a speed multiplier instead of an obscure speed value
+- Changed Category of CrosshairPlus from Misc to Render
 
 ### Fixed
 - Fixed Minestrike module team check
