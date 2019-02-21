@@ -25,6 +25,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Adjustable max distance for Tracers
 - Separate color for Player entities (Will include others soon)
 - Integration with Baritone's processes system for more seamless interaction
+- Added Item Frame support to Storage ESP
 
 ### Changed
 - Changed Ladder Speed in Terrain to have a speed multiplier instead of an obscure speed value
