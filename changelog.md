@@ -45,6 +45,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed random quote in Baritone first-time message
 - Fixed decimal value instead of integer for the node count in Breadcrumbs
 - Fixed the unhelpful usage provided by ``.help baritone``
+- Fixed bug that caused some forms of block breaking to be detectable by servers
 
 ## 4.4
 
