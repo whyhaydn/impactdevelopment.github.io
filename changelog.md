@@ -26,6 +26,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Separate color for Player entities (Will include others soon)
 - Integration with Baritone's processes system for more seamless interaction
 - Added Item Frame support to Storage ESP
+- Added New Chunks exploit
 
 ### Changed
 - Changed Ladder Speed in Terrain to have a speed multiplier instead of an obscure speed value
@@ -46,6 +47,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed decimal value instead of integer for the node count in Breadcrumbs
 - Fixed the unhelpful usage provided by ``.help baritone``
 - Fixed bug that caused some forms of block breaking to be detectable by servers
+- Fixed capes still showing after Self Destruct has been activated
 
 ## 4.4
 
