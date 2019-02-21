@@ -44,6 +44,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Sync Preserve Y in Smart Auto Walk with simplifyUnloadedYCoord
 - Fixed random quote in Baritone first-time message
 - Fixed decimal value instead of integer for the node count in Breadcrumbs
+- Fixed the unhelpful usage provided by ``.help baritone``
 
 ## 4.4
 
