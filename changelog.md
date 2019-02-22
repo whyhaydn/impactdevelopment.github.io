@@ -54,6 +54,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed the unhelpful usage provided by ``.help baritone``
 - Fixed bug that caused some forms of block breaking to be detectable by servers
 - Fixed capes still showing after Self Destruct has been activated
+- Fixed colossal amount of ``CallbackInfo`` objects being instantiated which could have a considerable memory and performance impact
+- Fixed inconsistent behavior of Anti Hazard's magma option depending on cardinal direction
 
 ## 4.4
 
