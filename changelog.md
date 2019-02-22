@@ -27,6 +27,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Integration with Baritone's processes system for more seamless interaction
 - Added Item Frame support to Storage ESP
 - Added New Chunks exploit
+- Added Suicide option to Crystal Aura
+  - **Avoid**: Don't do anything that could kill you
+  - **Place**: Place crystals that could kill you
+  - **Commit**: Place and hit crystals that could kill you
 
 ### Changed
 - Changed Ladder Speed in Terrain to have a speed multiplier instead of an obscure speed value
