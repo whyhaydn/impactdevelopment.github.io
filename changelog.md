@@ -33,6 +33,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
   - **Commit**: Place and hit crystals that could kill you
 - Expose all legit mine Baritone options to Auto Mine
 - Add Logs to Auto Mine "Bot Mode" default targets
+- Added freecam compatibility with everything
+  - Thanks Leijurv for the scuffed idea of how to do it
+  - This means that there should be no conflicts with using Freecam with everything, your "real player" will behave as expected when you're not using Freecam in all circumstances
+    - Aka, you can path using Baritone AND use Freecam simultaneously, it's really neat
 
 ### Changed
 - Changed Ladder Speed in Terrain to have a speed multiplier instead of an obscure speed value
