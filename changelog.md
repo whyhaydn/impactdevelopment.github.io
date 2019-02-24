@@ -67,6 +67,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
   - Thank you leijurv for pushing me to actually fix this
 - Fixed inconsistent behavior of Anti Hazard's magma option depending on cardinal direction
 - Fixed poor animation smoothing for the module list
+
+### Hotfixes
 - Fixed not showing Nametags or Tracers for the player while in Freecam ([#944](https://github.com/ImpactDevelopment/ImpactClient/issues/944))
 - Fixed Freecam no longer sharing the player's inventory (4.5 regression) ([#946](https://github.com/ImpactDevelopment/ImpactClient/issues/946))
 - Fixed Freecam being affected by F5 mode ([#947](https://github.com/ImpactDevelopment/ImpactClient/issues/947))
