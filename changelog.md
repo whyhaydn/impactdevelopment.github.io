@@ -3,20 +3,6 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~~and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).~~
 
-## 4.6 (Unreleased)
-
-### Added
-
-### Changed
-
-### Fixed
-- Fixed not showing Nametags or Tracers for the player while in Freecam ([#944](https://github.com/ImpactDevelopment/ImpactClient/issues/944))
-- Fixed Freecam no longer sharing the player's inventory (4.5 regression) ([#946](https://github.com/ImpactDevelopment/ImpactClient/issues/946))
-- Fixed Freecam being affected by F5 mode ([#947](https://github.com/ImpactDevelopment/ImpactClient/issues/947))
-- Fixed New Chunks ignoring their dimension ([#950](https://github.com/ImpactDevelopment/ImpactClient/issues/950))
-- Fixed `.goto` not working as expected ([#948](https://github.com/ImpactDevelopment/ImpactClient/issues/948))
-- Freecam will now disable when the real player dies ([#940](https://github.com/ImpactDevelopment/ImpactClient/issues/940))
-
 ## 4.5
 
 ### Added
@@ -81,6 +67,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
   - Thank you leijurv for pushing me to actually fix this
 - Fixed inconsistent behavior of Anti Hazard's magma option depending on cardinal direction
 - Fixed poor animation smoothing for the module list
+- Fixed not showing Nametags or Tracers for the player while in Freecam ([#944](https://github.com/ImpactDevelopment/ImpactClient/issues/944))
+- Fixed Freecam no longer sharing the player's inventory (4.5 regression) ([#946](https://github.com/ImpactDevelopment/ImpactClient/issues/946))
+- Fixed Freecam being affected by F5 mode ([#947](https://github.com/ImpactDevelopment/ImpactClient/issues/947))
+- Fixed New Chunks ignoring their dimension ([#950](https://github.com/ImpactDevelopment/ImpactClient/issues/950))
+- Fixed `.goto` not working as expected ([#948](https://github.com/ImpactDevelopment/ImpactClient/issues/948))
+- Freecam will now disable when the real player dies ([#940](https://github.com/ImpactDevelopment/ImpactClient/issues/940))
+- Fixed bad team check applying to all combat modules ([#945](https://github.com/ImpactDevelopment/ImpactClient/issues/945))
 
 ## 4.4
 
