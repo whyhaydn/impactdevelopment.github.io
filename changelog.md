@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Freecam being affected by F5 mode ([#947](https://github.com/ImpactDevelopment/ImpactClient/issues/947))
 - Fixed New Chunks ignoring their dimension ([#950](https://github.com/ImpactDevelopment/ImpactClient/issues/950))
 - Fixed `.goto` not working as expected ([#948](https://github.com/ImpactDevelopment/ImpactClient/issues/948))
+- Freecam will now disable when the real player dies ([#940](https://github.com/ImpactDevelopment/ImpactClient/issues/940))
 
 ## 4.5
 
