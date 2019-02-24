@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 
 ### Fixed
 - Not showing Nametags or Tracers for the player while in Freecam ([#944](https://github.com/ImpactDevelopment/ImpactClient/issues/944))
+- Fixed Freecam no longer sharing the player's inventory (4.5 regression) ([#946](https://github.com/ImpactDevelopment/ImpactClient/issues/946))
 
 ## 4.5
 
