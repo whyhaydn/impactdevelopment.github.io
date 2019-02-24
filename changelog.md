@@ -41,6 +41,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 ### Changed
 - Changed Ladder Speed in Terrain to have a speed multiplier instead of an obscure speed value
 - Changed Category of CrosshairPlus from Misc to Render
+- Changed how the Teammate and Friend settings work for ESP and Tracers
+  - There are now 3 modes: **Include**, **Restrict**, and **Only**
+  - **Include**: Players in this category are included
+  - **Restrict**: Players in this category are not included
+  - **Only**: Only players in this category are included
 
 ### Fixed
 - Fixed Minestrike module team check
@@ -61,6 +66,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed colossal amount of ``CallbackInfo`` objects being instantiated which could have a considerable memory and performance impact
   - Thank you leijurv for pushing me to actually fix this
 - Fixed inconsistent behavior of Anti Hazard's magma option depending on cardinal direction
+- Fixed poor animation smoothing for the module list
 
 ## 4.4
 
