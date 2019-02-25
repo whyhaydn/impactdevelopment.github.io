@@ -83,6 +83,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed background of Main Menu ([#846](https://github.com/ImpactDevelopment/ImpactClient/issues/846))
 - Fixed Font resolution ([#906](https://github.com/ImpactDevelopment/ImpactClient/issues/906))
 - Fixed Damn Daniel ([#842](https://github.com/ImpactDevelopment/ImpactClient/issues/842))
+- Added a way to secretly close an inventory without telling the server ([#913](https://github.com/ImpactDevelopment/ImpactClient/issues/913))
 
 ## 4.4
 
