@@ -77,6 +77,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Freecam will now disable when the real player dies ([#940](https://github.com/ImpactDevelopment/ImpactClient/issues/940))
 - Fixed bad team check applying to all combat modules ([#945](https://github.com/ImpactDevelopment/ImpactClient/issues/945))
 
+- Fixed having to run some Baritone commands twice ([#943](https://github.com/ImpactDevelopment/ImpactClient/issues/943))
+- Fixed Auto Walk having a higher priority than Baritone processes
+- Added Hunt
+- Fixed background of Main Menu ([#846](https://github.com/ImpactDevelopment/ImpactClient/issues/846))
+- Fixed Font resolution ([#906](https://github.com/ImpactDevelopment/ImpactClient/issues/906))
+- Fixed Damn Daniel ([#842](https://github.com/ImpactDevelopment/ImpactClient/issues/842))
+
 ## 4.4
 
 ### Added
