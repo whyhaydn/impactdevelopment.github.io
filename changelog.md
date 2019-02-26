@@ -84,6 +84,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Font resolution ([#906](https://github.com/ImpactDevelopment/ImpactClient/issues/906))
 - Fixed Damn Daniel ([#842](https://github.com/ImpactDevelopment/ImpactClient/issues/842))
 - Added a way to secretly close an inventory without telling the server ([#913](https://github.com/ImpactDevelopment/ImpactClient/issues/913))
+- Fixed Freecam not being responsive to real player health, hunger, potions, etc. ([#959](https://github.com/ImpactDevelopment/ImpactClient/issues/959))
 
 ## 4.4
 
