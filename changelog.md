@@ -87,7 +87,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Freecam not being responsive to real player health, hunger, potions, etc. ([#959](https://github.com/ImpactDevelopment/ImpactClient/issues/959))
 - Fixed inverted immune check in Kill Aura
 - Fixed flowing water check in Jesus
-- Baritone's "Free Look" option is now disabled while using Freecam
 
 ## 4.4
 
