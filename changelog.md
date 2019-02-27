@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 ### Fixed
 - Fixed a check in Crystal Aura that was off by 1 heart
 - Fixed a crash in the Macros GUI when typing without a textbox focused
+- Fixed Freecam being unable to break / place blocks ([#938](https://github.com/ImpactDevelopment/ImpactClient/issues/938))
 
 ## 4.5
 
