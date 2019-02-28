@@ -3,13 +3,6 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~~and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).~~
 
-## Next
-
-### Fixed
-- Fixed a check in Crystal Aura that was off by 1 heart
-- Fixed a crash in the Macros GUI when typing without a textbox focused
-- Fixed Freecam being unable to break / place blocks ([#938](https://github.com/ImpactDevelopment/ImpactClient/issues/938))
-
 ## 4.5
 
 ### Added
@@ -83,7 +76,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed `.goto` not working as expected ([#948](https://github.com/ImpactDevelopment/ImpactClient/issues/948))
 - Freecam will now disable when the real player dies ([#940](https://github.com/ImpactDevelopment/ImpactClient/issues/940))
 - Fixed bad team check applying to all combat modules ([#945](https://github.com/ImpactDevelopment/ImpactClient/issues/945))
-
 - Fixed having to run some Baritone commands twice ([#943](https://github.com/ImpactDevelopment/ImpactClient/issues/943))
 - Fixed Auto Walk having a higher priority than Baritone processes
 - Added Hunt
@@ -94,6 +86,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Freecam not being responsive to real player health, hunger, potions, etc. ([#959](https://github.com/ImpactDevelopment/ImpactClient/issues/959))
 - Fixed inverted immune check in Kill Aura
 - Fixed flowing water check in Jesus
+- Fixed a check in Crystal Aura that was off by 1 heart
+- Fixed a crash in the Macros GUI when typing without a textbox focused
+- Fixed Freecam being unable to break / place blocks ([#938](https://github.com/ImpactDevelopment/ImpactClient/issues/938))
+- Fixed Anti Hazard not avoiding cactus, fire, and pressure plates ([#961](https://github.com/ImpactDevelopment/ImpactClient/issues/961))
 
 ## 4.4
 
