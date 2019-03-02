@@ -6,11 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 ## Uncoming
 
 ### Added
+- Added suffix to Weather that indicates **Thunder**, **Rain** or **Clear**
 
 ### Changed
 
 ### Fixed
 - Fixed breadcrumbs applying across dimensions
+- Fixed sky and rain flickering caused by Weather ("Clear" Mode)
 
 ## 4.5
 
