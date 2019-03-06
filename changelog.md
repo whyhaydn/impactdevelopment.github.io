@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed breadcrumbs not clearing upon dying
 - Fixed sky and rain flickering caused by Weather ("Clear" Mode)
 - Fixed Trajectories raytracing when an arrow went out of your line of sight ([#962](https://github.com/ImpactDevelopment/ImpactClient/issues/962))
+- Fixed Fast Ladder still working in Terrain even when the module is off
 
 ## 4.5
 
