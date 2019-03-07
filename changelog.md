@@ -19,7 +19,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Trajectories raytracing when an arrow went out of your line of sight ([#962](https://github.com/ImpactDevelopment/ImpactClient/issues/962))
 - Fixed Fast Ladder still working in Terrain even when the module is off
 - Fixed strange tick rounding in Trajectories
-- Fixed Tracers randomly jumping to the other side of the screen when looking close to 90° away from an entity
+- Fixed Tracers randomly jumping to the other side of the screen when looking close to 90° away from an entity ([#55](https://github.com/ImpactDevelopment/ImpactClient/issues/55))
 
 ## 4.5
 
