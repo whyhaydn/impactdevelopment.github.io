@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added suffix to Weather that indicates **Thunder**, **Rain** or **Clear**
 - Added options to Trajectories to end on an entity, and to draw a correct centered tracer
 - Added Tracers option to Search (i.e. portal tracers)
-- Added Items option to Nametags (i.e. item esp)
+- Added option to include dropped items in Nametags
 
 ### Changed
 
