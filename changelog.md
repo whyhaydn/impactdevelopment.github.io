@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added option to include dropped items in Nametags
 
 ### Changed
+- Made complete entity removal in No Render an option
 
 ### Fixed
 - Fixed breadcrumbs applying across dimensions
