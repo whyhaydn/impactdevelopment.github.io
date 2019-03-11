@@ -24,6 +24,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Tracers randomly jumping to the other side of the screen when looking close to 90° away from an entity ([#55](https://github.com/ImpactDevelopment/ImpactClient/issues/55))
 - Made font loading on initial startup about 3x faster ([#980](https://github.com/ImpactDevelopment/ImpactClient/issues/980))
 - Fixed "NullPointerException" disconnects caused by Log Position
+- Fixed Unpack not working with iron blocks and instead recognizing iron ore
 
 ## 4.5
 
