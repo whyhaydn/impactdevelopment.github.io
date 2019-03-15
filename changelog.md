@@ -10,6 +10,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added options to Trajectories to end on an entity, and to draw a correct centered tracer
 - Added Tracers option to Search (i.e. portal tracers)
 - Added option to include dropped items in Nametags
+- Added TTF option to Nametags
+- Added Collate option under Nametags Item Option
+  - Will join together item tags so that they become readable
 
 ### Changed
 - Made complete entity removal in No Render an option
@@ -25,6 +28,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Made font loading on initial startup about 3x faster ([#980](https://github.com/ImpactDevelopment/ImpactClient/issues/980))
 - Fixed "NullPointerException" disconnects caused by Log Position
 - Fixed Unpack not working with iron blocks and instead recognizing iron ore
+- Fixed issue with font renderer where italic and bold characters were not accounted for when calculating string width/height
 
 ## 4.5
 
