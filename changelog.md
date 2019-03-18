@@ -15,6 +15,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
   - Will join together item tags so that they become readable
 - Added an option "Ignore Dungeons" to StorageESP to not render chests near Mob Spawners ([#995](https://github.com/ImpactDevelopment/ImpactClient/issues/995))
 - Added a persistence option to Auto Walk ([#1001](https://github.com/ImpactDevelopment/ImpactClient/issues/1001))
+- Added "toggle" and "random" modes for Skin Blinker
+- Added option for every model part in Skin Blinker
 
 ### Changed
 - Made complete entity removal in No Render an option
@@ -33,6 +35,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed issue with font renderer where italic and bold characters were not accounted for when calculating string width/height
 - Fixed Auto Eat right clicking chests and other containers instead of eating
 - Fixed Auto Totem crashing when shift clicking your first totem out of a hopper ([#993](https://github.com/ImpactDevelopment/ImpactClient/issues/993))
+- Fixed Skin Blinker not working effectively
 
 ## 4.5
 
