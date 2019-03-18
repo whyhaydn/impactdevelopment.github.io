@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 
 ### Changed
 - Made complete entity removal in No Render an option
+- Made NCP step ensure the player cannot move while it is waiting ticks to step
 
 ### Fixed
 - Fixed breadcrumbs applying across dimensions
@@ -36,6 +37,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Auto Eat right clicking chests and other containers instead of eating
 - Fixed Auto Totem crashing when shift clicking your first totem out of a hopper ([#993](https://github.com/ImpactDevelopment/ImpactClient/issues/993))
 - Fixed Skin Blinker not working effectively
+- Fixed Flight sending No Kick packets that could cause damage
 
 ## 4.5
 
