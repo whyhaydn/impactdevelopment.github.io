@@ -21,6 +21,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 ### Changed
 - Made complete entity removal in No Render an option
 - Made NCP step ensure the player cannot move while it is waiting ticks to step
+- Minor tweaks to the Light brightness fade
 
 ### Fixed
 - Fixed breadcrumbs applying across dimensions
