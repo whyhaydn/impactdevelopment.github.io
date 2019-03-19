@@ -39,6 +39,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Auto Totem crashing when shift clicking your first totem out of a hopper ([#993](https://github.com/ImpactDevelopment/ImpactClient/issues/993))
 - Fixed Skin Blinker not working effectively
 - Fixed Flight sending No Kick packets that could cause damage
+- Fixed the Allow Place suggestion message triggering at the wrong time ([#1006](https://github.com/ImpactDevelopment/ImpactClient/issues/1006))
 
 ## 4.5
 
