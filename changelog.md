@@ -43,6 +43,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Flight sending No Kick packets that could cause damage
 - Fixed the Allow Place suggestion message triggering at the wrong time ([#1006](https://github.com/ImpactDevelopment/ImpactClient/issues/1006))
 - Fixed Anti Desync sending completely incorrect packets that get flagged immediately and lag you back
+- Fixed Velocity's behavior regarding zeroing velocity vs change in velocity ([#1009](https://github.com/ImpactDevelopment/ImpactClient/issues/1009))
 
 ## 4.5
 
