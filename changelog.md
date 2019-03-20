@@ -23,6 +23,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Made NCP step ensure the player cannot move while it is waiting ticks to step
 - Minor tweaks to the Light brightness fade
 - Made "Yaw/Pitch Speed" options in Inventory sub-options of "Look Around"
+- Made ClickGUI Scale a slider instead of a checkbox, and made it keep old scale while dragging
 
 ### Fixed
 - Fixed breadcrumbs applying across dimensions
