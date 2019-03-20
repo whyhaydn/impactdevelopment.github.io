@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added a persistence option to Auto Walk ([#1001](https://github.com/ImpactDevelopment/ImpactClient/issues/1001))
 - Added "toggle" and "random" modes for Skin Blinker
 - Added option for every model part in Skin Blinker
+- Added line width option to Trajectories
 
 ### Changed
 - Made complete entity removal in No Render an option
