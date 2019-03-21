@@ -18,6 +18,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added "toggle" and "random" modes for Skin Blinker
 - Added option for every model part in Skin Blinker
 - Added line width option to Trajectories
+- Added option to Anti Overlay to hide boss health bars
 
 ### Changed
 - Made complete entity removal in No Render an option
