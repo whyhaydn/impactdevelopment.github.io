@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added a persistence option to Auto Walk ([#1001](https://github.com/ImpactDevelopment/ImpactClient/issues/1001))
 - Added "toggle" and "random" modes for Skin Blinker
 - Added option for every model part in Skin Blinker
+- Added Tridents to Trajectories
 - Added line width option to Trajectories
 - Added option to Anti Overlay to hide boss health bars
 - Added rendering of the target to Crystal Aura (highlighting both to place and to set off) ([#987](https://github.com/ImpactDevelopment/ImpactClient/issues/987))
@@ -45,6 +46,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Skin Blinker not working effectively
 - Fixed Flight sending No Kick packets that could cause damage
 - Fixed the Allow Place suggestion message triggering at the wrong time ([#1006](https://github.com/ImpactDevelopment/ImpactClient/issues/1006))
+- Fixed Crosshair+ drawing on top of the normal crosshair
 - Fixed Anti Desync sending completely incorrect packets that get flagged immediately and lag you back
 - Fixed Velocity's behavior regarding zeroing velocity vs change in velocity ([#1009](https://github.com/ImpactDevelopment/ImpactClient/issues/1009))
 - Fixed some Baritone goals not rendering in Radar
