@@ -30,6 +30,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Minor tweaks to the Light brightness fade
 - Made "Yaw/Pitch Speed" options in Inventory sub-options of "Look Around"
 - Made ClickGUI Scale a slider instead of a checkbox, and made it keep old scale while dragging
+- Changed minimum AutoReconnect time delay from 2500ms to 200ms
 
 ### Fixed
 - Fixed breadcrumbs applying across dimensions
