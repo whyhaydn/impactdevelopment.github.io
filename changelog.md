@@ -54,6 +54,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Anti Desync sending completely incorrect packets that get flagged immediately and lag you back
 - Fixed Velocity's behavior regarding zeroing velocity vs change in velocity ([#1009](https://github.com/ImpactDevelopment/ImpactClient/issues/1009))
 - Fixed some Baritone goals not rendering in Radar
+- Fixed Anti Desync breaking in singleplayer ([#1043](https://github.com/ImpactDevelopment/ImpactClient/issues/1043))
 
 ## 4.5
 
