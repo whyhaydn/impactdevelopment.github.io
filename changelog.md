@@ -24,6 +24,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added Lag Meter: notifies you when no packets have been received from the server since a certain amount of time
 - Added Durability option to Inventory, to show correct durability in item mouseover tooltip even when damage is negative (e.g. unbreakables) ([#1011](https://github.com/ImpactDevelopment/ImpactClient/issues/1011))
 - Added Tamed option to Nametags, to show which player owns tamable mobs ([#909](https://github.com/ImpactDevelopment/ImpactClient/issues/909))
+- Added a GUI to manage the Search module
 
 ### Changed
 - Made complete entity removal in No Render an option
