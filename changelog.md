@@ -58,6 +58,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Anti Desync breaking in singleplayer ([#1043](https://github.com/ImpactDevelopment/ImpactClient/issues/1043))
 - Fixed OptiFine's cape button not being moved out of our way ([#1028](https://github.com/ImpactDevelopment/ImpactClient/issues/1028))
 - Fixed time formatting in Log Position regarding month vs minute
+- Fixed Speed not respecting Baritone's freeLook direction
 
 ## 4.5
 
