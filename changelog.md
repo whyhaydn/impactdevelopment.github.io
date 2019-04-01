@@ -61,6 +61,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Speed not respecting Baritone's freeLook direction
 - Fixed font height causing extra blank space in ClickGUI tooltips
 
+### Removed
+- Removed Screenshot Uploader
+
 ## 4.5
 
 ### Added
