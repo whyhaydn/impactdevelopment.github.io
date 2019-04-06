@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 ## Upcoming
 
 ### Added
+- Added new "Fill" option to Shader ESP with an opacity suboption.
 
 ### Changed
 
