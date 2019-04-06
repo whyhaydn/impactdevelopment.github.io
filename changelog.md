@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 
 ### Fixed
 - Fixed ClickGUI scrolling not working on some systems [#1061](https://github.com/ImpactDevelopment/ImpactClient/issues/1061)
+- Fixed ESP Shader mode not rendering Phantoms with the right color, caused by their eye layer.
 
 ## 4.6
 
