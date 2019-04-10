@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added new "Fill" option to Shader ESP with an opacity suboption.
 
 ### Changed
+- Made module category and name changes described in [#1103](https://github.com/ImpactDevelopment/ImpactClient/issues/1103)
 
 ### Fixed
 - Fixed ESP Shader mode not rendering Phantoms with the right color, caused by their eye layer.
