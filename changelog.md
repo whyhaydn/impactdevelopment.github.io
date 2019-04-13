@@ -91,6 +91,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed a crash in Search when the shader cannot be created
 - Fixed potential crashes related to ResourceLocations ([#1052](https://github.com/ImpactDevelopment/ImpactClient/issues/1052))
 - Fixed behavior of Jesus on waterlogged blocks e.g. kelp ([#1063](https://github.com/ImpactDevelopment/ImpactClient/issues/1063))
+- Fixed crash when mining redstone ore ([#1121](https://github.com/ImpactDevelopment/ImpactClient/issues/1121))
 
 ## 4.5
 
