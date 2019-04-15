@@ -295,3 +295,11 @@ nav a.button-collapse {
 .parallax-container {
     max-height: 400px;
 }
+
+.card-avatar {
+    transition: all 150ms;
+}
+
+.card-avatar:hover {
+    transform: translateY(-1px);
+}
