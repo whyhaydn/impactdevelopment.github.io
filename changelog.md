@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 
 ### Fixed
 - Fixed ESP Shader mode not rendering Phantoms with the right color, caused by their eye layer.
+- Fixed thread unsafe operation in Chest Stealer that could result in a game crash
 
 ## 4.6
 
