@@ -296,10 +296,10 @@ nav a.button-collapse {
     max-height: 400px;
 }
 
-.card-avatar {
+.grey-text.text-lighten-3, .card-avatar {
     transition: all 150ms;
 }
 
-.card-avatar:hover {
+.grey-text.text-lighten-3:hover, .card-avatar:hover {
     transform: translateY(-1px);
 }
