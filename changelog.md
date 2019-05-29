@@ -12,11 +12,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Made module category and name changes described in [#1103](https://github.com/ImpactDevelopment/ImpactClient/issues/1103)
 - Renamed "Rainbow Enchant" to "Enchant Color", with the support of making the enchant glint any color.
 - Added scaling options to players, items, and tamed under Nametags ([#1051](https://github.com/ImpactDevelopment/ImpactClient/issues/1051))
+- Moved Lag Meter from its own module to a suboption under HUD ([#1065](https://github.com/ImpactDevelopment/ImpactClient/issues/1065))
 
 ### Fixed
 - Fixed ESP Shader mode not rendering Phantoms with the right color, caused by their eye layer.
 - Fixed thread unsafe operation in Chest Stealer that could result in a game crash
 - Fixed URL links not working in 1.13.2+ ([#1151](https://github.com/ImpactDevelopment/ImpactClient/issues/1151))
+- Fixed Lag Meter rendering in singleplayer ([#1065](https://github.com/ImpactDevelopment/ImpactClient/issues/1065)
 
 ## 4.6
 
