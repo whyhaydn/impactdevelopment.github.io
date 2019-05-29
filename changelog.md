@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed URL links not working in 1.13.2+ ([#1151](https://github.com/ImpactDevelopment/ImpactClient/issues/1151))
 - Fixed Lag Meter rendering in singleplayer ([#1065](https://github.com/ImpactDevelopment/ImpactClient/issues/1065))
 - Fixed Alt manager hanging when Randomizing 0 alts ([#1225](https://github.com/ImpactDevelopment/ImpactClient/issues/1225))
+- Fixed spelling of the word "Assassins"
 
 ## 4.6
 
