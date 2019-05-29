@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 ### Changed
 - Made module category and name changes described in [#1103](https://github.com/ImpactDevelopment/ImpactClient/issues/1103)
 - Renamed "Rainbow Enchant" to "Enchant Color", with the support of making the enchant glint any color.
+- Added scaling options to players, items, and tamed under Nametags ([#1051](https://github.com/ImpactDevelopment/ImpactClient/issues/1051))
 
 ### Fixed
 - Fixed ESP Shader mode not rendering Phantoms with the right color, caused by their eye layer.
