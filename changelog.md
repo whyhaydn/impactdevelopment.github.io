@@ -6,16 +6,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 ## Upcoming
 
 ### Added
-- Added new "Fill" option to Shader ESP with an opacity suboption.
+- Added new "Fill" option to Shader ESP with an opacity suboption
+- Added text saying how to hide the Steal button on a chest
 
 ### Changed
 - Made module category and name changes described in [#1103](https://github.com/ImpactDevelopment/ImpactClient/issues/1103)
-- Renamed "Rainbow Enchant" to "Enchant Color", with the support of making the enchant glint any color.
+- Renamed "Rainbow Enchant" to "Enchant Color", with the support of making the enchant glint any color
 - Added scaling options to players, items, and tamed under Nametags ([#1051](https://github.com/ImpactDevelopment/ImpactClient/issues/1051))
 - Moved Lag Meter from its own module to a suboption under HUD ([#1065](https://github.com/ImpactDevelopment/ImpactClient/issues/1065))
+- Decreased minimum Respawn delay from 2500ms to 250ms
 
 ### Fixed
-- Fixed ESP Shader mode not rendering Phantoms with the right color, caused by their eye layer.
+- Fixed ESP Shader mode not rendering Phantoms with the right color, caused by their eye layer
 - Fixed thread unsafe operation in Chest Stealer that could result in a game crash
 - Fixed URL links not working in 1.13.2+ ([#1151](https://github.com/ImpactDevelopment/ImpactClient/issues/1151))
 - Fixed Lag Meter rendering in singleplayer ([#1065](https://github.com/ImpactDevelopment/ImpactClient/issues/1065))
