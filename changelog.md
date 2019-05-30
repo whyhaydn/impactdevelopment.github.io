@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added scaling options to players, items, and tamed under Nametags ([#1051](https://github.com/ImpactDevelopment/ImpactClient/issues/1051))
 - Moved Lag Meter from its own module to a suboption under HUD ([#1065](https://github.com/ImpactDevelopment/ImpactClient/issues/1065))
 - Decreased minimum Respawn delay from 2500ms to 250ms
+- Decreased minimum AntiAFK swing speed from 1 to 0.01 ([#1157](https://github.com/ImpactDevelopment/ImpactClient/issues/1157))
 
 ### Fixed
 - Fixed ESP Shader mode not rendering Phantoms with the right color, caused by their eye layer
