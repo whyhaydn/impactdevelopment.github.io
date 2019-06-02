@@ -86,6 +86,7 @@
 <div id="download-complete-modal" class="modal">
     <div class="modal-content">
         <h4>Thank you for downloading Impact!</h4>
+        <p style="font-size: 18px">If your download does not start immediately, please click <a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0.exe">here</a> for a direct link to the Windows .exe or <a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0.jar">here</a> for a direct link to the universal .jar.</p>
         <p id="mac-moment">
             On Mac, you may run into the following issue with "Unidentified Developer" on opening the Installer. <a href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Opening-the-installer-on-Mac">Click here</a> for instructions on how to get around this issue.<br />
             <img src="img/macmoment.png" style="width: 50%">
@@ -106,6 +107,19 @@
     </div>
 </div>
 
+<script type="text/javascript">
+    if (window.location.search.indexOf("brady-money-grubbing-completed") != -1) {
+        window.onload = function() {
+            jQuery('#download-complete-modal').modal('open');
+
+            var platform = window.location.search.split("platform=")[1];
+            if (platform) {
+                window.open("https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0." + platform);
+            }
+        };
+    }
+</script>
+
 <!-- Downloads -->
 <div id="download" class="section scrollspy">
     <div class="container">
@@ -119,7 +133,7 @@
               </div>
             </div>
             <div class="center col s12 l4 offset-l2">
-                <a target="_blank" href="http://evassmat.com/JC3N" onclick="jQuery('#download-complete-modal').modal('open');">
+                <a target="_blank" href="https://impactdevelopment.github.io/?brady-money-grubbing-completed=true&platform=jar">
                     <div class="card-panel waves-effect z-depth-2 hoverable">
                         <h5 class="black-text">
                             Impact Installer
@@ -140,7 +154,7 @@
                 </a>
             </div>
             <div class="center col s12 l4">
-                <a target="_blank" href="http://evassmat.com/JC4A" onclick="jQuery('#download-complete-modal').modal('open');">
+                <a target="_blank" href="https://impactdevelopment.github.io/?brady-money-grubbing-completed=true&platform=exe">
                     <div class="card-panel waves-effect z-depth-2 hoverable">
                         <h5 class="black-text">
                             Impact Installer
@@ -427,6 +441,5 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <script type="text/javascript" src="/min/init-min.js"></script>
-
 </body>
 </html>
