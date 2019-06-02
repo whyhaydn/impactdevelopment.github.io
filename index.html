@@ -100,6 +100,10 @@
             On Mac, you may run into the following issue with "Unidentified Developer" on opening the Installer. <a href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Opening-the-installer-on-Mac">Click here</a> for instructions on how to get around this issue.<br />
             <img src="img/macmoment.png" style="width: 50%">
         </p>
+        <p id="exe-moment">
+            On Windows, you may run into the following issue with missing Java on opening the Installer. This is normal; Java can be downloaded from <a target="_blank" href="https://www.java.com/download/">here</a>.<br />
+            <img src="img/nojava.png" style="width: 50%">
+        </p>
         <script type="text/javascript">
             function delet(id) {
                 var elem = document.getElementById(id);
@@ -115,6 +119,7 @@
                     delet("jarOnly");
                 } else {
                     delet("exeOnly");
+                    delet("exe-moment");
                 }
             }
         </script>
