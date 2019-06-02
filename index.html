@@ -83,19 +83,36 @@
     </div>
 </div>
 
+<script type="text/javascript">
+    window.impactPlatform = window.location.search.split("platform=")[1];
+</script>
+
 <div id="download-complete-modal" class="modal">
     <div class="modal-content">
         <h4>Thank you for downloading Impact!</h4>
-        <p style="font-size: 18px">If your download does not start immediately, please click <a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0.exe">here</a> for a direct link to the Windows .exe or <a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0.jar">here</a> for a direct link to the universal .jar.</p>
+        <p><div style="font-size: 18px; float: left;">If your download does not start immediately, please click&nbsp;</div><div id="exeOnly" style="float: left; font-size:18px;"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0.exe">here</a> for a direct link to the Windows .exe</div><div id="bothPlatforms" style="float: left; font-size:18px;">&nbsp;or&nbsp;</div><div id="jarOnly" style="float: left; font-size:18px;"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0.jar">here</a> for a direct link to the universal .jar.</div></p>
+        <br />
+        <br />
         <p id="mac-moment">
             On Mac, you may run into the following issue with "Unidentified Developer" on opening the Installer. <a href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Opening-the-installer-on-Mac">Click here</a> for instructions on how to get around this issue.<br />
             <img src="img/macmoment.png" style="width: 50%">
         </p>
         <script type="text/javascript">
-            if (navigator.platform.toUpperCase().indexOf('MAC') == -1) { // if NOT on Mac OS X
-                var elem = document.getElementById("mac-moment"); // then delete the mac info
+            function delet(id) {
+                var elem = document.getElementById(id);
 
                 elem.parentNode.removeChild(elem);
+            }
+            if (navigator.platform.toUpperCase().indexOf('MAC') == -1) { // if NOT on Mac OS X
+                delet("mac-moment"); // then delete the mac info
+            }
+            if (impactPlatform) {
+                delet("bothPlatforms");
+                if (impactPlatform == "exe") {
+                    delet("jarOnly");
+                } else {
+                    delet("exeOnly");
+                }
             }
         </script>
         <p>If you need help with Impact, come <a href="https://discord.gg/YFhR2Ab" target="_blank">join our Discord</a>!</p>
@@ -106,19 +123,6 @@
         <a class="modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
 </div>
-
-<script type="text/javascript">
-    if (window.location.search.indexOf("brady-money-grubbing-completed") != -1) {
-        window.onload = function() {
-            jQuery('#download-complete-modal').modal('open');
-
-            var platform = window.location.search.split("platform=")[1];
-            if (platform) {
-                window.open("https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0." + platform);
-            }
-        };
-    }
-</script>
 
 <!-- Downloads -->
 <div id="download" class="section scrollspy">
@@ -441,5 +445,13 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 <script type="text/javascript" src="/min/init-min.js"></script>
+<script type="text/javascript">
+    if (window.location.search.indexOf("brady-money-grubbing-completed") != -1) {
+        jQuery('#download-complete-modal').modal('open');
+        if (impactPlatform) {
+            window.open("https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0." + impactPlatform);
+        }
+    }
+</script>
 </body>
 </html>
