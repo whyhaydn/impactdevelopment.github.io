@@ -457,7 +457,15 @@
     if (window.location.search.indexOf("brady-money-grubbing-completed") != -1) {
         jQuery('#download-complete-modal').modal('open');
         if (impactPlatform) {
-            window.open("https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0." + impactPlatform);
+            var url = "https://github.com/ImpactDevelopment/Installer/releases/download/0.2.0/installer-0.2.0." + impactPlatform;
+            var w = window.open(url);
+            setTimeout(function(){
+                if ((!w || (typeof w) == 'undefined') || (w && (w.closed || w.test || w.outerHeight == 0))) {
+                    // pop up was blocked
+                    // sadly they will not get the install info from the modal, since we need to redirect to make the download work =(
+                    document.location.href = url;
+                }
+            }, 25);
         }
     }
 </script>
