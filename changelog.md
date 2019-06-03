@@ -24,6 +24,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Lag Meter rendering in singleplayer ([#1065](https://github.com/ImpactDevelopment/ImpactClient/issues/1065))
 - Fixed Alt manager hanging when Randomizing 0 alts ([#1225](https://github.com/ImpactDevelopment/ImpactClient/issues/1225))
 - Fixed spelling of the word "Assassins"
+- Fixed Velocity partially inverting knockback by default ([#1168](https://github.com/ImpactDevelopment/ImpactClient/issues/1168))
 
 ## 4.6
 
