@@ -9,6 +9,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added new "Fill" option to Shader ESP with an opacity suboption
 - Added text saying how to hide the Steal button on a chest
 - Added commands to save and reload spam config from disk without having to restart ([#1243](https://github.com/ImpactDevelopment/ImpactClient/issues/1243))
+- Added Yaw lock (([#417](https://github.com/ImpactDevelopment/ImpactClient/issues/417)))
+- Added more options for the Main Menu background, and an option to randomize the selection
 
 ### Changed
 - Made module category and name changes described in [#1103](https://github.com/ImpactDevelopment/ImpactClient/issues/1103)
