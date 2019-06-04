@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Added commands to save and reload spam config from disk without having to restart ([#1243](https://github.com/ImpactDevelopment/ImpactClient/issues/1243))
 - Added Yaw lock (([#417](https://github.com/ImpactDevelopment/ImpactClient/issues/417)))
 - Added more options for the Main Menu background, and an option to randomize the selection
+- Added Nametags drawn on sound effects (aka Sound ESP)
 
 ### Changed
 - Made module category and name changes described in [#1103](https://github.com/ImpactDevelopment/ImpactClient/issues/1103)
@@ -28,6 +29,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Alt manager hanging when Randomizing 0 alts ([#1225](https://github.com/ImpactDevelopment/ImpactClient/issues/1225))
 - Fixed spelling of the word "Assassins"
 - Fixed Velocity partially inverting knockback by default ([#1168](https://github.com/ImpactDevelopment/ImpactClient/issues/1168))
+- Fixed `.locate` for everything except Stronghold and Nether Fortress on 1.12.2 only, still broken on 1.13.2
 
 ## 4.6
 
