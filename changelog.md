@@ -31,6 +31,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) ~
 - Fixed Velocity partially inverting knockback by default ([#1168](https://github.com/ImpactDevelopment/ImpactClient/issues/1168))
 - Fixed `.locate` for everything except Stronghold and Nether Fortress on 1.12.2 only, still broken on 1.13.2
 - Fixed item collation under Inventory ([#1236](https://github.com/ImpactDevelopment/ImpactClient/issues/1236))
+- Fixed ClickGUI instantly re-opening itself when toggled off ingame ([#1258](https://github.com/ImpactDevelopment/ImpactClient/issues/1258))
 
 ## 4.6
 
