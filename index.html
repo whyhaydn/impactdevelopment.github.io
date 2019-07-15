@@ -122,11 +122,13 @@
         <script type="text/javascript">
             function delet(id) {
                 var elem = document.getElementById(id);
-
-                elem.parentNode.removeChild(elem);
+                if (elem)
+                    elem.parentNode.removeChild(elem);
             }
             if (navigator.platform.toUpperCase().indexOf('MAC') == -1) { // if NOT on Mac OS X
                 delet("mac-moment"); // then delete the mac info
+            } else {
+                delet("exe-moment"); // big brain: if on mac, delete the big exe meme
             }
             if (impactPlatform) {
                 delet("bothPlatforms");
