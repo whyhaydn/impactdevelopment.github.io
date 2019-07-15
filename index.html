@@ -110,17 +110,17 @@
         <h4>Thank you for downloading Impact!</h4>
         <p style="font-size: 18px">
             <span>If your download does not start immediately, please click</span>
-            <span id="exeOnly"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.5.1/installer-0.5.1.exe">here</a> for a direct link to the Windows .exe</span>
+            <span id="exeOnly"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.5.1/installer-0.5.1.exe" onclick="getOutboundLink('direct_exe'); return true;">here</a> for a direct link to the Windows .exe</span>
             <span id="bothPlatforms">or</span>
-            <span id="jarOnly"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.5.1/installer-0.5.1.jar">here</a> for a direct link to the universal .jar</span>
+            <span id="jarOnly"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.5.1/installer-0.5.1.jar" onclick="getOutboundLink('direct_jar'); return true;">here</a> for a direct link to the universal .jar</span>
         </p>
         <p>
-            <a target="_blank" href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Setup-FAQ">Setup / Install FAQ</a>
+            <a target="_blank" href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Setup-FAQ" onclick="getOutboundLink('faq_setup'); return true;">Setup / Install FAQ</a>
             <br />
-            <a target="_blank" href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Usage-FAQ">Usage FAQ</a>
+            <a target="_blank" href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Usage-FAQ" onclick="getOutboundLink('faq_usage'); return true;">Usage FAQ</a>
         </p>
         <p id="mac-moment">
-            On Mac, you may run into the following issue with "Unidentified Developer" on opening the Installer. <a href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Opening-the-installer-on-Mac">Click here</a> for instructions on how to get around this issue.<br />
+            On Mac, you may run into the following issue with "Unidentified Developer" on opening the Installer. <a href="https://github.com/ImpactDevelopment/ImpactClient/wiki/Opening-the-installer-on-Mac" onclick="getOutboundLink('install_mac'); return true;">Click here</a> for instructions on how to get around this issue.<br />
             <img src="img/macmoment.png" style="width: 50%">
         </p>
         <p id="exe-moment">
@@ -148,9 +148,9 @@
                 }
             }
         </script>
-        <p>If you need help with Impact, come <a href="https://discord.gg/YFhR2Ab" target="_blank">join our Discord</a>!</p>
-        <p><a href="https://github.com/ImpactDevelopment/ImpactClient/issues" target="_blank">Report issues</a> on GitHub</p>
-        <p style="font-size: 10px"><a href="https://github.com/ImpactDevelopment/Installer" target="_blank">Source code</a> of the installer you just downloaded</p>
+        <p>If you need help with Impact, come <a href="https://discord.gg/YFhR2Ab" target="_blank" onclick="getOutboundLink('discord'); return true;">join our Discord</a>!</p>
+        <p><a href="https://github.com/ImpactDevelopment/ImpactClient/issues" target="_blank" onclick="getOutboundLink('issues'); return true;">Report issues</a> on GitHub</p>
+        <p style="font-size: 10px"><a href="https://github.com/ImpactDevelopment/Installer" target="_blank" onclick="getOutboundLink('installer_source'); return true;">Source code</a> of the installer you just downloaded</p>
     </div>
     <div class="modal-footer">
         <a class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -275,7 +275,7 @@
                         If you donate <b>$5 or more</b> (and enter your Minecraft username),
                         you will recieve a few small rewards such as <b>premium mods</b> (currently Ignite),
                         a <b>cape</b> visible to other Impact users, a gold colored name in the
-                        <a href="#contact">Impact Discord Server</a>, and <b>early access</b> to closed betas
+                        <a href="https://discord.gg/YFhR2Ab" target="_blank" onclick="getOutboundLink('discord'); return true;">Impact Discord Server</a>, and <b>early access</b> to closed betas
                         of upcoming releases.
                     </p>
                     <p>
@@ -284,7 +284,7 @@
                     </p>
                     <div class="row">
                         <div class="col s12 center">
-                            <a href="https://www.paypal.me/BradyHahn">
+                            <a href="https://www.paypal.me/BradyHahn" onclick="getOutboundLink('paypal'); return true;">
                                 <img src="/img/paypal.png" alt="PayPal. The safer, easier way to pay online."/>
                             </a>
                         </div>
@@ -321,7 +321,7 @@
                 <h4 class="white-text">More links</h4>
                 <ul>
                     <li>
-                        <a class="grey-text text-lighten-3 waves-effect" target="_blank" href="https://github.com/ImpactDevelopment/ImpactClient/issues">
+                        <a class="grey-text text-lighten-3 waves-effect" target="_blank" href="https://github.com/ImpactDevelopment/ImpactClient/issues" onclick="getOutboundLink('issues'); return true;">
                             <h5>
                                 <i class="medium fa fa-github-square"></i> Report issues on GitHub
                             </h5>
