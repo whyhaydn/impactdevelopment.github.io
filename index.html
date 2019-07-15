@@ -39,6 +39,14 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-143397381-1');
+        
+        var getOutboundLink = function(label) {
+  gtag('event', 'click', {
+    'event_category': 'outbound',
+    'event_label': label,
+    'transport_type': 'beacon'
+  });
+}
     </script>
 
 </head>
@@ -162,7 +170,7 @@
               </div>
             </div>
             <div class="center col s12 l4 offset-l2">
-                <a href="http://evassmat.com/K4AN">
+                <a href="http://evassmat.com/K4AN" onclick="getOutboundLink('adfly_exe'); return true;">
                     <div class="card-panel waves-effect z-depth-2 hoverable">
                         <h5 class="black-text">
                             Impact Installer
@@ -182,7 +190,7 @@
                 </a>
             </div>
             <div class="center col s12 l4">
-                <a href="http://evassmat.com/K44b">
+                <a href="http://evassmat.com/K44b" onclick="getOutboundLink('adfly_jar'); return true;">
                     <div class="card-panel waves-effect z-depth-2 hoverable">
                         <h5 class="black-text">
                             Impact Installer
