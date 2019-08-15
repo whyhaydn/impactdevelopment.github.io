@@ -172,7 +172,7 @@
               </div>
             </div>
             <div class="center col s12 l4 offset-l2">
-                <a href="http://evassmat.com/K4AN" onclick="getOutboundLink('adfly_exe'); return true;">
+                <a href="http://evassmat.com/K4AN" onclick="getOutboundLink('adfly_exe'); return true;" id="adfly-link-exe">
                     <div class="card-panel waves-effect z-depth-2 hoverable">
                         <h5 class="black-text">
                             Impact Installer
@@ -196,7 +196,7 @@
                 </a>
             </div>
             <div class="center col s12 l4">
-                <a href="http://evassmat.com/K44b" onclick="getOutboundLink('adfly_jar'); return true;">
+                <a href="http://evassmat.com/K44b" onclick="getOutboundLink('adfly_jar'); return true;" id="adfly-link-jar">
                     <div class="card-panel waves-effect z-depth-2 hoverable">
                         <h5 class="black-text">
                             Impact Installer
@@ -220,6 +220,15 @@
                     </div>
                 </a>
             </div>
+            <script type="text/javascript">
+                // analytics says almost half of firefox users never come back from the adfly
+                // probably a really aggressive adblocker
+                // so... just let them straight through lmao
+                if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+                    document.getElementById("adfly-link-jar").href = "/?brady-money-grubbing-completed=true&platform=jar";
+                    document.getElementById("adfly-link-exe").href = "/?brady-money-grubbing-completed=true&platform=exe";
+                }
+            </script>
             <div class="col s12">
               <div class="center promo promo-example">
                 <br />
