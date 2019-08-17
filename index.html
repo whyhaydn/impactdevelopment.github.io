@@ -110,9 +110,9 @@
         <h4>Thank you for downloading Impact!</h4>
         <p style="font-size: 18px">
             <span>If your download does not start immediately, please click</span>
-            <span id="exeOnly"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.5.5/installer-0.5.5.exe" onclick="getOutboundLink('direct_exe'); return true;">here</a> for a direct link to the Windows .exe</span>
+            <span id="exeOnly"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.5.6/installer-0.5.6.exe" onclick="getOutboundLink('direct_exe'); return true;">here</a> for a direct link to the Windows .exe</span>
             <span id="bothPlatforms">or</span>
-            <span id="jarOnly"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.5.5/installer-0.5.5.jar" onclick="getOutboundLink('direct_jar'); return true;">here</a> for a direct link to the universal .jar</span>
+            <span id="jarOnly"><a target="_blank" href="https://github.com/ImpactDevelopment/Installer/releases/download/0.5.6/installer-0.5.6.jar" onclick="getOutboundLink('direct_jar'); return true;">here</a> for a direct link to the universal .jar</span>
         </p>
         <p>
             <div style="font-size: 15px;float: left;font-weight: bold">Having trouble installing or setting up Impact? There's almost certainly a solution in the&nbsp;</div>
@@ -189,7 +189,7 @@
                             Download
                             <br />
                             <span style="font-height: 10px" class="black-text">
-                                installer-0.5.5.exe
+                                installer-0.5.6.exe
                             </span>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                             Download
                             <br />
                             <span style="font-height: 10px" class="black-text">
-                                installer-0.5.5.jar
+                                installer-0.5.6.jar
                             </span>
                         </div>
                     </div>
@@ -393,7 +393,7 @@
     if (window.location.search.indexOf("brady-money-grubbing-completed") != -1) {
         jQuery('#download-complete-modal').modal('open');
         if (impactPlatform) {
-            var url = "https://github.com/ImpactDevelopment/Installer/releases/download/0.5.5/installer-0.5.5." + impactPlatform;
+            var url = "https://github.com/ImpactDevelopment/Installer/releases/download/0.5.6/installer-0.5.6." + impactPlatform;
             var w = window.open(url);
             setTimeout(function(){
                 if ((!w || (typeof w) == 'undefined') || (w && (w.closed || w.test || w.outerHeight == 0))) {
